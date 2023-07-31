@@ -1,4 +1,112 @@
-.App {
+.nav-ul {
+  background-color: skyblue;
+  padding: 5px;
+  margin: 0px;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  
+}
+
+.nav-right {
+  text-align: right;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid skyblue;
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0;
+}
+
+.deleteButton {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.search-product-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  padding-left: 30px;
+  border: solid 1px skyblue;
+  font-size: larger;
+}
+
+.updateButton {
+  color: black;
+  background-color: yellow;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+
+.logo {
+  width: 45px;
+  height: 45x;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.appButton {
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: solid 1;
+  cursor: pointer;
+}
+
+.inputBox {
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  margin: 20px;
+  width: 300px;
+}
+
+.register, .product {
+  margin-left: 40%;
+}
+
+.login {
+  margin-left: 40%;
+  margin-top: 100px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: skyblue;
+  width: 100%;
+  font-size: large;
+  padding: 20px;
   text-align: center;
 }
 
